@@ -85,7 +85,7 @@ call: "07557 362664"
 Room.create!({
 name:"Operation Deadlock",
 description: "All aspiring recruits must pass the test and the Agency will be watching. Do you have what it takes to join?",
-logo:'images/images/canYouEscapeLogo.png',
+logo:'images/canYouEscapeLogo.png',
 image:'images/deadlock-white.png',
 website:"https://canyouescape.co.uk/edinburgh/missions",
 call: "0131 5101158"

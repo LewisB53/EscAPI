@@ -1,4 +1,29 @@
 Room.destroy_all
+Stat.delete_all
+User.delete_all
+
+user1 = User.create({
+  email:"lewis_b53b@hotmail.co.uk",
+  password: "password",
+  password_confirmation: "password"
+})
+
+user2 = User.create({
+  email:"noob@example.com",
+  password: "password",
+  password_confirmation: "password"
+})
+
+
+user1.stats.create({
+  name: "Lewis",
+  level: 7
+})
+
+user2.stats.create({
+  name: "Noob",
+  level: 1
+})
 
 Room.create!({
 name:"Animal Hospital",

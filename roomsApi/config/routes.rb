@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
-  devise_for :users
   resources :rooms
   get 'stats' => 'stats#index'
+
+  devise_for :users, :controllers => {sessions: 'sessions', registrations: 'registrations'}
+
+    resources :stats, defaults: {format: :json}
+
+  resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

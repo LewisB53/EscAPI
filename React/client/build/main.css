@@ -1,0 +1,204 @@
+body{
+  background:#000000;
+  max-height: 450;
+  width: 4095px;
+}
+
+h4{
+  color:white;
+}
+.rooms{
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 450px;
+  white-space:nowrap
+}
+
+.room-info{
+  position:fixed;
+  width: 600px;
+}
+
+.links{
+  color:white;
+}
+
+.item{
+  box-shadow: 1px 1px 10px #FFF; 
+  padding: 20px;
+  float: left;
+  border: 2px solid black;
+  width: 450px;
+  height: 450px;
+  display:inline-block;
+  *display:inline;
+  cursor: pointer;
+}
+
+.room-info{
+  margin-top: 10px;
+  padding-left: 40px;
+  font-size: 32px;
+  color: white;
+  display:inline-block;
+  *display:inline;
+
+}
+
+.navBar{
+  position:fixed;
+  font-size: 32px;
+  color: white;
+  text-align: right;
+  align-self: right;
+  margin-left:1000px;
+}
+
+.inline{
+  display:inline-block;
+  *display:inline;
+}
+
+.login-box{
+  position:fixed;
+  margin-left: 100px;
+}
+.members{
+  float:right;
+  position: fixed;
+  color:white;
+}
+
+
+.image{
+  box-shadow: 1px 1px 10px #FFF; 
+  margin-top:150px;
+  width: 280px;
+  height:280px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.allroomsdiv{
+  display:inline-block;
+  *display:inline;
+  color:white;
+}
+
+.logo-tiny{
+  border:0;
+  margin-left:15px;
+  width: 30px;
+  height:30px;
+}
+
+.map {
+  height: 300px;
+}
+
+.imagethumb{
+  box-shadow: 1px 1px 10px #FFF; 
+  width: 50px;
+  height:50px;
+  padding: 15px;
+  display:inline-block;
+  *display:inline;
+  cursor: pointer;
+}
+
+.imagethumb:hover{
+  background: #383;
+}
+
+.title{
+  margin-bottom: 300px
+}
+
+.trophy-button{
+  margin-left: 100px;
+  position:fixed;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  font-size: 22px;
+  color: yellow;
+  list-style: none;
+}
+
+.image:hover{
+  background: #383;
+}
+
+.arrow:hover{
+  background: #383;
+}
+
+.arrow:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.arrows {
+}
+.arrow {
+  margin-top: 180px;
+  height:250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 1.5em;
+}
+.left-arrow {
+  float:left;
+}
+.right-arrow {
+  right: 0;
+}
+.hidden {
+  display: none;
+}
+
+.cabinet{
+  margin-left: 300px;
+  margin-top: 40px;
+  height:700px;
+}
+
+.background {
+  width: 4080px;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+
+.background::after {
+  content: "";
+  background: url(images/lockeddistillery.jpg);
+  opacity: 0.08;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.arrow{
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+  background-color: #383; 
+  border-radius: 42px; 
+  border: 2px solid rgb(24, 171, 41); 
+  display: inline-block; cursor: pointer; 
+  color: rgb(255, 255, 255); 
+  font-family: &quot;Trebuchet MS&quot;; 
+  font-size: 28px; 
+  font-weight: bold; 
+  padding: 32px 8px; 
+  text-decoration: none; 
+  text-shadow: rgb(47, 102, 39) 0px 1px 0px;

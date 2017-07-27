@@ -126,7 +126,7 @@ ul{
 
 li{
   font-size: 22px;
-  color: yellow;
+  color: #383;
   list-style: none;
 }
 
@@ -191,14 +191,14 @@ li{
 
 .arrow{
   box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
-  background-color: #383; 
+  background-color: transparent; 
   border-radius: 42px; 
   border: 2px solid rgb(24, 171, 41); 
   display: inline-block; cursor: pointer; 
-  color: rgb(255, 255, 255); 
+  color: #383; 
   font-family: &quot;Trebuchet MS&quot;; 
   font-size: 28px; 
   font-weight: bold; 
   padding: 32px 8px; 
   text-decoration: none; 
-  text-shadow: rgb(47, 102, 39) 0px 1px 0px;
+  text-shadow: rgb(0, 0, 0) 2px 2px 0px;
